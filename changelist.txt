@@ -1,0 +1,10 @@
+dependents changed:
+	3-deepin-libwine_2.18-12_i386:
+		libldap-2.4-2 -> libldap-2.5-0
+	12-deepin-wine-plugin_1.0deepin2_amd64:
+		+p7zip-full
+		+python3-dbus
+		+python3-gi-cairo
+
+deleted packages:
+	deepin-wine-plugin-virtual
