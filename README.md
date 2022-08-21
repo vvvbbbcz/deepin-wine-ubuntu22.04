@@ -33,13 +33,14 @@
 ### 安装教程
 
 1. 克隆或下载本仓库。
-2. 切换到仓库文件目录，在终端中运行 `./install.sh`（**KDE或其他安装后运行出现X错误的桌面环境执行 `./KDE-install.sh`**）。
-3. 如果运行出现 `libwine.so.1: No such file or directory` 的错误，需要执行 `fix-link.sh` 修复。
+2. 切换到仓库文件目录，在终端中运行 `./install.sh`。
+3. 如果程序运行后出现 X 错误，则需要运行 `kde-fix.sh` 脚本
+4. 如果运行出现 `libwine.so.1: No such file or directory` 的错误，需要执行 `fix-link.sh` 修复。
 
 ### 卸载方法
 
-1. 执行 `uninstall.sh`
-2. 如果你之前是使用 `KDE-install.sh` 脚本安装的，则需要再运行如下命令：`rm ~/.config/autostart-scripts/gsd-xsettings.sh` 并移除 `gnome-settings-daemon` 和 `gcc` 软件包（**如果移除这两个软件包会破坏其他软件包，则无需移除**）
+1. 执行 `uninstall.sh`。
+2. 如果你之前使用过 `kde-fix.sh` 脚本，则需要再运行如下命令：`rm ~/.config/autostart-scripts/gsd-xsettings.sh` 并移除 `gnome-settings-daemon` 和 `gcc` 软件包（**如果移除这两个软件包会破坏其他软件包，则无需移除**）
 
 ### 使用说明
 
