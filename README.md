@@ -127,3 +127,4 @@ sudo apt-get install libjpeg62:i386
 * 5. [捐赠deepin](https://bbs.deepin.org/forum.php?mod=viewthread&tid=40784&extra=page%3D1)
 
 欢迎大家积极反馈！
+#
